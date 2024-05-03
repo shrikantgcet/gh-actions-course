@@ -14,8 +14,8 @@ jobs:
               uses: actions/setup-Node@v3
               with:
                 node-version:   '20.x'
-            - name: Install dependency
-              run: npm ci
+            #- name: Install dependency
+              #run: npm ci
 
         # 0. Checkout the code
         # 1. install a dependency
